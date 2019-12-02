@@ -34,9 +34,9 @@ namespace gitadvanced
 >>>>>>> 86c36906575381612f168ed79a17b54dd5882b4d
         }
 
-        public void Future(string name)
+        public void Future(string name, string surname)
         {
-            Console.WriteLine(name);
+            Console.WriteLine(name, surname);
             Console.WriteLine("Gemini");
         }
     }
