@@ -15,5 +15,10 @@ namespace gitadvanced
         {
             Console.WriteLine("We are React team!");
         }
+
+        public  void Count()
+        {
+            Console.WriteLine("Martin!");
+        }
     }
 }
