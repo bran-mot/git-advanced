@@ -18,20 +18,22 @@ namespace gitadvanced
 
         public static void Cheer(int numberOfMembers, string name)
         {
+            Console.WriteLine("C#");
+
             Console.WriteLine(name);
             Console.WriteLine("C#");
             Console.WriteLine($"We are React team! With {numberOfMembers} members.");
         }
 
-        public  void Count(string message)
+        public  void Count(string message, string message2)
         {
             Console.WriteLine($"Counting the countless {message}");
             Console.WriteLine(message);
         }
 
-        public void Future(string name)
+        public void Future(string name, string surname)
         {
-            Console.WriteLine(name);
+            Console.WriteLine(name, surname);
             Console.WriteLine("Gemini");
         }
     }
