@@ -21,8 +21,9 @@ namespace gitadvanced
             Console.WriteLine("Martin!");
         }
 
-        public void Future()
+        public void Future(string name)
         {
+            Console.WriteLine(name);
             Console.WriteLine("Gemini");
         }
     }
