@@ -5,7 +5,7 @@ namespace gitadvanced
     {
         public static void greet(string name)
         {
-            Console.WriteLine($"what up, {name}?");
+            Console.WriteLine($"Gretings!");
         }
     }
 }
