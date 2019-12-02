@@ -6,7 +6,7 @@ namespace gitadvanced
     {
         public static void Main(string[] args)
         {
-            Cheer(4);
+            Cheer(4,"Lukas");
 
             Console.ReadLine();
         }
@@ -16,14 +16,19 @@ namespace gitadvanced
             Console.WriteLine("Chinese Sign"); 
         }
 
-        public static void Cheer(int numberOfMembers)
+        public static void Cheer(int numberOfMembers, string name)
         {
+            Console.WriteLine("C#");
+
+            Console.WriteLine(name);
             Console.WriteLine("C#");
             Console.WriteLine($"We are React team! With {numberOfMembers} members.");
         }
 
-        public  void Count(string message)
+        public  void Count(string message, string message2)
         {
+            Console.WriteLine(message + message2);
+
             Console.WriteLine("May!");
             Console.WriteLine(message);
         }
