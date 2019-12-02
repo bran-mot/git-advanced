@@ -18,7 +18,7 @@ namespace gitadvanced
 
         public static void Cheer(int numberOfMembers)
         {
-
+            Console.WriteLine("C#");
         }
 
         public  void Count(string message, string message2)
