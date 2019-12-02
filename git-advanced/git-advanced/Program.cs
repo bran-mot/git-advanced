@@ -18,7 +18,7 @@ namespace gitadvanced
 
         public  void Count()
         {
-            Console.WriteLine("Martin!");
+            Console.WriteLine("May!");
         }
 
         public void Future()
