@@ -9,9 +9,9 @@ namespace gitadvanced
             Console.WriteLine("Hello World!");
         }
 
-        public  void Count()
+        public  void Count(string message)
         {
-            Console.WriteLine("Martin!");
+            Console.WriteLine(message);
         }
     }
 }
