@@ -11,6 +11,11 @@ namespace gitadvanced
             Console.ReadLine();
         }
 
+        public static void Future()
+        {
+            Console.WriteLine("Chinese Sign"); 
+        }
+
         public static void Cheer(int numberOfMembers)
         {
 
