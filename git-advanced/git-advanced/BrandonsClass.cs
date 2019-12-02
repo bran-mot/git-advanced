@@ -3,9 +3,9 @@ namespace gitadvanced
 {
     public class BrandonsClass
     {
-        public static void greet()
+        public static void greet(string name)
         {
-            Console.WriteLine("what up, loser?");
+            Console.WriteLine($"what up, {name}?");
         }
     }
 }
