@@ -8,5 +8,10 @@ namespace gitadvanced
         {
             Console.WriteLine("Hello World!");
         }
+
+        public  void Count()
+        {
+            Console.WriteLine("Martin!");
+        }
     }
 }
