@@ -6,7 +6,14 @@ namespace gitadvanced
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Cheer();
+
+            Console.ReadLine();
+        }
+
+        public static void Cheer()
+        {
+            Console.WriteLine("We are React team!");
         }
     }
 }

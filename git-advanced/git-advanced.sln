@@ -1,6 +1,7 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "git-advanced", "git-advanced\git-advanced.csproj", "{B8CF85BD-6FAA-496E-BFA4-8930C0512D9E}"
 EndProject
 Global
@@ -9,9 +10,15 @@ Global
 		Release|anycpu = Release|anycpu
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B8CF85BD-6FAA-496E-BFA4-8930C0512D9E}.Debug|anycpu.ActiveCfg = Debug|anycpu
-		{B8CF85BD-6FAA-496E-BFA4-8930C0512D9E}.Debug|anycpu.Build.0 = Debug|anycpu
-		{B8CF85BD-6FAA-496E-BFA4-8930C0512D9E}.Release|anycpu.ActiveCfg = Release|anycpu
-		{B8CF85BD-6FAA-496E-BFA4-8930C0512D9E}.Release|anycpu.Build.0 = Release|anycpu
+		{B8CF85BD-6FAA-496E-BFA4-8930C0512D9E}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{B8CF85BD-6FAA-496E-BFA4-8930C0512D9E}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{B8CF85BD-6FAA-496E-BFA4-8930C0512D9E}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{B8CF85BD-6FAA-496E-BFA4-8930C0512D9E}.Release|anycpu.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76A0FB94-87A1-445F-8599-3268CA1E10C4}
 	EndGlobalSection
 EndGlobal
