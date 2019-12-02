@@ -13,7 +13,7 @@ namespace gitadvanced
 
         public static void Cheer()
         {
-            Console.WriteLine("We are React team!");
+            Console.WriteLine("C#");
         }
 
         public  void Count(string message)
