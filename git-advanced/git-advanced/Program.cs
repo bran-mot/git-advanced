@@ -27,8 +27,8 @@ namespace gitadvanced
 
         public  void Count(string message, string message2)
         {
-            Console.WriteLine($"Counting the countless {message}");
-            Console.WriteLine(message);
+            Console.WriteLine(message + message2);
+            Console.WriteLine("Greeting");
         }
 
         public void Future(string name, string surname)
