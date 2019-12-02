@@ -20,5 +20,10 @@ namespace gitadvanced
         {
             Console.WriteLine("Martin!");
         }
+
+        public void Future()
+        {
+            Console.WriteLine("Gemini");
+        }
     }
 }
