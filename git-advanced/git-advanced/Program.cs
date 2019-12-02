@@ -16,9 +16,9 @@ namespace gitadvanced
             Console.WriteLine($"We are React team! With {numberOfMembers} members.");
         }
 
-        public  void Count()
+        public  void Count(string message)
         {
-            Console.WriteLine("Martin!");
+            Console.WriteLine(message);
         }
 
         public void Future(string name)
