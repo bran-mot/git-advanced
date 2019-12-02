@@ -25,7 +25,7 @@ namespace gitadvanced
 
         public  void Count(string message)
         {
-            Console.WriteLine("May!");
+            Console.WriteLine($"Counting the countless {message}");
             Console.WriteLine(message);
         }
 
