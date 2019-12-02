@@ -37,7 +37,7 @@ namespace gitadvanced
         public void Future(string name)
         {
             Console.WriteLine(name);
-            Console.WriteLine("Gemini");
+            Console.WriteLine($"Your future looks like {name}");
         }
     }
 }
