@@ -24,6 +24,8 @@ namespace gitadvanced
         public  void Count(string message, string message2)
         {
             Console.WriteLine(message + message2);
+            Console.WriteLine("Greeting");
+
         }
 
         public void Future(string name)
