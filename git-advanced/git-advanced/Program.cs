@@ -6,14 +6,14 @@ namespace gitadvanced
     {
         public static void Main(string[] args)
         {
-            Cheer();
+            Cheer(4);
 
             Console.ReadLine();
         }
 
-        public static void Cheer()
+        public static void Cheer(int numberOfMembers)
         {
-            Console.WriteLine("We are React team!");
+            Console.WriteLine($"We are React team! With {numberOfMembers} members.");
         }
 
         public  void Count()
